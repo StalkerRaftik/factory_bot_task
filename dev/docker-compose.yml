@@ -18,7 +18,7 @@ services:
         entrypoint: /entrypoint.sh
         env_file: .env
         ports:
-            - "8000:8001"
+            - "8001:8000"
     bot_polling:
         build:
             context: ../backend
@@ -31,4 +31,4 @@ services:
         entrypoint: /entrypoint.sh
         env_file: .env
         ports:
-            - "8000:8002"
+            - "8001:8000"
